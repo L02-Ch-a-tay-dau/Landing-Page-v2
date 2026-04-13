@@ -238,7 +238,8 @@ body { background: var(--white); }
 .design-shot img {
   width: 100%;
   aspect-ratio: 9 / 16;
-  object-fit: cover;
+  object-fit: contain;
+  background: var(--ghost-white-2);
   display: block;
 }
 .design-shot .caption { padding: 14px 16px; color: var(--cool-gray); font-size: var(--fs-6); }
