@@ -219,6 +219,22 @@ body { background: var(--white); }
 }
 
 .design { padding-block: var(--section-padding); background: var(--ghost-white-1); }
+
+.design-hero {
+  margin-top: 28px;
+  border-radius: 14px;
+  overflow: hidden;
+  background: var(--ghost-white-2);
+  box-shadow: 0 3px 12px hsla(233, 77%, 10%, 0.06);
+}
+
+.design-hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
 .design-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -409,6 +425,14 @@ body { background: var(--white); }
 .hero .btn-primary { margin-inline: auto; }
 
 .hero-banner img { width: 100%; }
+
+.hero-logo {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  max-width: 520px;
+  margin-inline: auto;
+}
 
 
 
