@@ -1083,7 +1083,8 @@ footer .logo { margin-bottom: 25px; }
     padding-bottom: 50px;
   }
 
-  .about-list li:nth-child(odd) { transform: translateY(50px); }
+  /* keep pain-point cards aligned horizontally */
+  .about-list li:nth-child(odd) { transform: none; }
 
 
 
